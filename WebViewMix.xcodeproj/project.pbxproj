@@ -12,6 +12,8 @@
 		1951E0941ECBE576002E4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1951E0921ECBE576002E4A3A /* Main.storyboard */; };
 		1951E0961ECBE576002E4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1951E0951ECBE576002E4A3A /* Assets.xcassets */; };
 		1951E0991ECBE576002E4A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1951E0971ECBE576002E4A3A /* LaunchScreen.storyboard */; };
+		1951E0A51ECBE9CF002E4A3A /* CheckWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951E0A41ECBE9CF002E4A3A /* CheckWebViewController.swift */; };
+		19E1326E1ECBED9100CE2E75 /* CheckWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1326D1ECBED9100CE2E75 /* CheckWKWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1951E0951ECBE576002E4A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1951E0981ECBE576002E4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1951E09A1ECBE576002E4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1951E0A41ECBE9CF002E4A3A /* CheckWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckWebViewController.swift; sourceTree = "<group>"; };
+		19E1326D1ECBED9100CE2E75 /* CheckWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckWKWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1951E0951ECBE576002E4A3A /* Assets.xcassets */,
 				1951E0971ECBE576002E4A3A /* LaunchScreen.storyboard */,
 				1951E09A1ECBE576002E4A3A /* Info.plist */,
+				1951E0A41ECBE9CF002E4A3A /* CheckWebViewController.swift */,
+				19E1326D1ECBED9100CE2E75 /* CheckWKWebViewController.swift */,
 			);
 			path = WebViewMix;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1951E0911ECBE576002E4A3A /* ViewController.swift in Sources */,
+				1951E0A51ECBE9CF002E4A3A /* CheckWebViewController.swift in Sources */,
+				19E1326E1ECBED9100CE2E75 /* CheckWKWebViewController.swift in Sources */,
 				1951E08F1ECBE576002E4A3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +273,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
 				INFOPLIST_FILE = WebViewMix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.WebViewMix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
 				INFOPLIST_FILE = WebViewMix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.WebViewMix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +314,7 @@
 				1951E09F1ECBE576002E4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
